@@ -1,40 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-  </head>
-  <body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .skill-rating {
+            font-size: 1.2em;
+        }
+        .skill-rating span {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
     <h1>Ronny</h1>
     <img src="Assets/profile.jpg" height="200" alt="guy with blue shirt">
-    <h1>Summery</h1>
-    <p>hardworking and fastlearner</p>
+    <h1>Summary</h1>
+    <p>Hardworking and fast learner.</p>
     <hr />
     <h1>Education</h1>
-    <p>
-      Currently pursuing a Bachelor's degree is Information Technology at UNIMA
-    </p>
+    <p>Currently pursuing a Bachelor's degree in Information Technology at UNIMA.</p>
     <hr />
     <h1>Work Experience</h1>
     <ul>
-      <li><h2>MultiMedia - GMIM Church Central Office</h2></li>
-      <p>2 year at high school</p>
-      <li><h2>Customer Service - BRI</h2></li>
-      <p>feb - march 2024</p>
+        <li>
+            <h2>MultiMedia - GMIM Church Central Office</h2>
+            <p>2 years at high school</p>
+        </li>
+        <li>
+            <h2>Customer Service - BRI</h2>
+            <p>Feb - March 2024</p>
+        </li>
     </ul>
     <hr />
     <h1>Skills</h1>
     <ul>
-      <li>Microsoft Office : ⭐️⭐️⭐️⭐️</li>
-      <li>Customer Service : ⭐️⭐️</li>
-      <li>Web Developer : ⭐️⭐️⭐️</li>
+        <li>Microsoft Office: <span class="skill-rating">⭐️⭐️⭐️⭐️</span></li>
+        <li>Customer Service: <span class="skill-rating">⭐️⭐️</span></li>
+        <li>Web Development: <span class="skill-rating">⭐️⭐️⭐️</span></li>
     </ul>
     <hr>
     <footer>
         <small>
-          Copyright © 2024 Onim. All Rights Reserved.
+            Copyright © 2024 Ronny. All Rights Reserved.
         </small>
-      </footer>
-  </body>
+    </footer>
+</body>
 </html>
